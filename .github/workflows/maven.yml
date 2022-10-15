@@ -24,7 +24,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build core framework
-      run: cd core &&  mvn clean install
+      run: cd Core &&  mvn clean install
       
     - name: UITest
       run: cd RespondUITest &&  mvn clean install &&  mvn -B package --file pom.xml

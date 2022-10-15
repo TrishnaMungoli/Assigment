@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MultipleSuite" duration-ms="81809" started-at="2022-10-15T09:04:08Z" finished-at="2022-10-15T09:05:29Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="16943" started-at="2022-10-15T09:04:08Z" finished-at="2022-10-15T09:04:25Z">
+      <class name="UiTest.UiTestRespond.Tc_01_Verify_User_Able_To_Serach_Item_Using_Search_Bar">
+        <test-method status="PASS" signature="initialzeBrowser(java.lang.String, java.lang.String)[pri:0, instance:UiTest.UiTestRespond.Tc_01_Verify_User_Able_To_Serach_Item_Using_Search_Bar@7ce6a65d]" name="initialzeBrowser" is-config="true" duration-ms="8851" started-at="2022-10-15T09:04:08Z" finished-at="2022-10-15T09:04:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chromeheadless]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[prod]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialzeBrowser -->
+        <test-method status="PASS" signature="nameBefore(java.lang.reflect.Method)[pri:0, instance:UiTest.UiTestRespond.Tc_01_Verify_User_Able_To_Serach_Item_Using_Search_Bar@7ce6a65d]" name="nameBefore" is-config="true" duration-ms="5" started-at="2022-10-15T09:04:17Z" finished-at="2022-10-15T09:04:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UiTest.UiTestRespond.Tc_01_Verify_User_Able_To_Serach_Item_Using_Search_Bar.Verify_User_Able_To_Serach_Item_Using_Search_Bar(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameBefore -->
+        <test-method status="PASS" signature="Verify_User_Able_To_Serach_Item_Using_Search_Bar(java.lang.String)[pri:0, instance:UiTest.UiTestRespond.Tc_01_Verify_User_Able_To_Serach_Item_Using_Search_Bar@7ce6a65d]" name="Verify_User_Able_To_Serach_Item_Using_Search_Bar" duration-ms="7956" started-at="2022-10-15T09:04:17Z" data-provider="TestData" finished-at="2022-10-15T09:04:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Blouse]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_User_Able_To_Serach_Item_Using_Search_Bar -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:UiTest.UiTestRespond.Tc_01_Verify_User_Able_To_Serach_Item_Using_Search_Bar@7ce6a65d]" name="getResult" is-config="true" duration-ms="4" started-at="2022-10-15T09:04:24Z" finished-at="2022-10-15T09:04:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_User_Able_To_Serach_Item_Using_Search_Bar status=SUCCESS method=Tc_01_Verify_User_Able_To_Serach_Item_Using_Search_Bar.Verify_User_Able_To_Serach_Item_Using_Search_Bar(java.lang.String)[pri:0, instance:UiTest.UiTestRespond.Tc_01_Verify_User_Able_To_Serach_Item_Using_Search_Bar@7ce6a65d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:UiTest.UiTestRespond.Tc_01_Verify_User_Able_To_Serach_Item_Using_Search_Bar@7ce6a65d]" name="TearDown" is-config="true" duration-ms="82" started-at="2022-10-15T09:04:25Z" finished-at="2022-10-15T09:04:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- UiTest.UiTestRespond.Tc_01_Verify_User_Able_To_Serach_Item_Using_Search_Bar -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="52884" started-at="2022-10-15T09:04:25Z" finished-at="2022-10-15T09:05:17Z">
+      <class name="UiTest.UiTestRespond.Tc_02_Verify_User_Able_To_Filter_Search_Result_Under_Women_Category_By_Color">
+        <test-method status="PASS" signature="initialzeBrowser(java.lang.String, java.lang.String)[pri:0, instance:UiTest.UiTestRespond.Tc_02_Verify_User_Able_To_Filter_Search_Result_Under_Women_Category_By_Color@ed9d034]" name="initialzeBrowser" is-config="true" duration-ms="11076" started-at="2022-10-15T09:04:25Z" finished-at="2022-10-15T09:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chromeheadless]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[prod]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialzeBrowser -->
+        <test-method status="PASS" signature="nameBefore(java.lang.reflect.Method)[pri:0, instance:UiTest.UiTestRespond.Tc_02_Verify_User_Able_To_Filter_Search_Result_Under_Women_Category_By_Color@ed9d034]" name="nameBefore" is-config="true" duration-ms="2" started-at="2022-10-15T09:04:36Z" finished-at="2022-10-15T09:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UiTest.UiTestRespond.Tc_02_Verify_User_Able_To_Filter_Search_Result_Under_Women_Category_By_Color.Verify_User_Able_To_Filter_Search_Result_Under_Women_Category_By_Color(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameBefore -->
+        <test-method status="PASS" signature="Verify_User_Able_To_Filter_Search_Result_Under_Women_Category_By_Color(java.lang.String)[pri:0, instance:UiTest.UiTestRespond.Tc_02_Verify_User_Able_To_Filter_Search_Result_Under_Women_Category_By_Color@ed9d034]" name="Verify_User_Able_To_Filter_Search_Result_Under_Women_Category_By_Color" duration-ms="41711" started-at="2022-10-15T09:04:36Z" data-provider="TestData" finished-at="2022-10-15T09:05:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[WOMEN > COLOR WHITE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_User_Able_To_Filter_Search_Result_Under_Women_Category_By_Color -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:UiTest.UiTestRespond.Tc_02_Verify_User_Able_To_Filter_Search_Result_Under_Women_Category_By_Color@ed9d034]" name="getResult" is-config="true" duration-ms="2" started-at="2022-10-15T09:05:17Z" finished-at="2022-10-15T09:05:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_User_Able_To_Filter_Search_Result_Under_Women_Category_By_Color status=SUCCESS method=Tc_02_Verify_User_Able_To_Filter_Search_Result_Under_Women_Category_By_Color.Verify_User_Able_To_Filter_Search_Result_Under_Women_Category_By_Color(java.lang.String)[pri:0, instance:UiTest.UiTestRespond.Tc_02_Verify_User_Able_To_Filter_Search_Result_Under_Women_Category_By_Color@ed9d034] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:UiTest.UiTestRespond.Tc_02_Verify_User_Able_To_Filter_Search_Result_Under_Women_Category_By_Color@ed9d034]" name="TearDown" is-config="true" duration-ms="82" started-at="2022-10-15T09:05:17Z" finished-at="2022-10-15T09:05:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- UiTest.UiTestRespond.Tc_02_Verify_User_Able_To_Filter_Search_Result_Under_Women_Category_By_Color -->
+    </test> <!-- Test2 -->
+    <test name="Test3" duration-ms="11961" started-at="2022-10-15T09:05:17Z" finished-at="2022-10-15T09:05:29Z">
+      <class name="UiTest.UiTestRespond.Tc_03_Verify_If_User_Able_To_View_Any_Clothing_Item_And_Add_That_To_Cart">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:UiTest.UiTestRespond.Tc_03_Verify_If_User_Able_To_View_Any_Clothing_Item_And_Add_That_To_Cart@612679d6]" name="beforeSuite" is-config="true" duration-ms="93" started-at="2022-10-15T09:04:08Z" finished-at="2022-10-15T09:04:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="initialzeBrowser(java.lang.String, java.lang.String)[pri:0, instance:UiTest.UiTestRespond.Tc_03_Verify_If_User_Able_To_View_Any_Clothing_Item_And_Add_That_To_Cart@612679d6]" name="initialzeBrowser" is-config="true" duration-ms="9196" started-at="2022-10-15T09:05:17Z" finished-at="2022-10-15T09:05:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chromeheadless]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[prod]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialzeBrowser -->
+        <test-method status="PASS" signature="verify_If_User_Able_To_View_Any_Clothing_Item_And_Add_That_To_Cart(java.lang.String)[pri:0, instance:UiTest.UiTestRespond.Tc_03_Verify_If_User_Able_To_View_Any_Clothing_Item_And_Add_That_To_Cart@612679d6]" name="verify_If_User_Able_To_View_Any_Clothing_Item_And_Add_That_To_Cart" duration-ms="2683" started-at="2022-10-15T09:05:27Z" data-provider="TestData" finished-at="2022-10-15T09:05:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Product successfully added to your shopping cart]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_If_User_Able_To_View_Any_Clothing_Item_And_Add_That_To_Cart -->
+        <test-method status="PASS" signature="nameBefore(java.lang.reflect.Method)[pri:0, instance:UiTest.UiTestRespond.Tc_03_Verify_If_User_Able_To_View_Any_Clothing_Item_And_Add_That_To_Cart@612679d6]" name="nameBefore" is-config="true" duration-ms="0" started-at="2022-10-15T09:05:27Z" finished-at="2022-10-15T09:05:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UiTest.UiTestRespond.Tc_03_Verify_If_User_Able_To_View_Any_Clothing_Item_And_Add_That_To_Cart.verify_If_User_Able_To_View_Any_Clothing_Item_And_Add_That_To_Cart(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameBefore -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:UiTest.UiTestRespond.Tc_03_Verify_If_User_Able_To_View_Any_Clothing_Item_And_Add_That_To_Cart@612679d6]" name="getResult" is-config="true" duration-ms="1" started-at="2022-10-15T09:05:29Z" finished-at="2022-10-15T09:05:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_If_User_Able_To_View_Any_Clothing_Item_And_Add_That_To_Cart status=SUCCESS method=Tc_03_Verify_If_User_Able_To_View_Any_Clothing_Item_And_Add_That_To_Cart.verify_If_User_Able_To_View_Any_Clothing_Item_And_Add_That_To_Cart(java.lang.String)[pri:0, instance:UiTest.UiTestRespond.Tc_03_Verify_If_User_Able_To_View_Any_Clothing_Item_And_Add_That_To_Cart@612679d6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:UiTest.UiTestRespond.Tc_03_Verify_If_User_Able_To_View_Any_Clothing_Item_And_Add_That_To_Cart@612679d6]" name="TearDown" is-config="true" duration-ms="77" started-at="2022-10-15T09:05:29Z" finished-at="2022-10-15T09:05:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="closeExtentReport()[pri:0, instance:UiTest.UiTestRespond.Tc_03_Verify_If_User_Able_To_View_Any_Clothing_Item_And_Add_That_To_Cart@612679d6]" name="closeExtentReport" is-config="true" duration-ms="229" started-at="2022-10-15T09:05:29Z" finished-at="2022-10-15T09:05:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeExtentReport -->
+      </class> <!-- UiTest.UiTestRespond.Tc_03_Verify_If_User_Able_To_View_Any_Clothing_Item_And_Add_That_To_Cart -->
+    </test> <!-- Test3 -->
+  </suite> <!-- MultipleSuite -->
+</testng-results>

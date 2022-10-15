@@ -1,0 +1,13 @@
+
+
+                   ** urls to be triggered **
+                   
+RESPOND_URL=http://automationpractice.com/index.php
+
+
+
+                           **PATH**
+
+EXTENT_CONFIG_PATH=//test-output//extent-config.xml
+
+TEST_DATA_PATH=//TestData//testData.json

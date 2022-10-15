@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [MultipleSuite]">
+  <test thread-count="5" verbose="0" name="Test3(failed)">
+    <parameter name="enviorment" value="prod"/>
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="UiTest.UiTestRespond.Tc_03_Verify_If_User_Able_To_View_Any_Clothing_Item_And_Add_That_To_Cart">
+        <methods>
+          <include name="getResult"/>
+          <include name="closeExtentReport"/>
+          <include name="TearDown"/>
+          <include name="beforeSuite"/>
+          <include name="nameBefore"/>
+          <include name="verify_If_User_Able_To_View_Any_Clothing_Item_And_Add_That_To_Cart" invocation-numbers="0"/>
+          <include name="initialzeBrowser"/>
+        </methods>
+      </class> <!-- UiTest.UiTestRespond.Tc_03_Verify_If_User_Able_To_View_Any_Clothing_Item_And_Add_That_To_Cart -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+</suite> <!-- Failed suite [MultipleSuite] -->

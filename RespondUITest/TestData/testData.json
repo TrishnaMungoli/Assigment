@@ -1,0 +1,23 @@
+
+
+{ 
+
+"Tc_01_Verify_User_Able_To_Serach_Item_Using_Search_Bar":{ 
+      
+       "serachResult":"Blouse"                                               
+                              
+   },
+   
+   "Tc_02_Verify_User_Able_To_Filter_Search_Result_Under_Women_Category_By_Color":{ 
+      
+       "filterResult":"WOMEN > COLOR WHITE"                                               
+                              
+   },
+   
+    "Tc_03_Verify_If_User_Able_To_View_Any_Clothing_Item_And_Add_That_To_Cart":{ 
+      
+       "successMessage":"Product successfully added to your shopping cart"                                               
+                              
+   }
+   
+  }

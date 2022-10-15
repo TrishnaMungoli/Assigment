@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MultipleSuite">
+
+
+	<test name="Test1" preserve-order="true">
+		<parameter name="browser" value="Chromeheadless" />
+		<parameter name="enviorment" value="prod" />
+		<classes>
+			<class
+				name="UiTest.UiTestRespond.Tc_01_Verify_User_Able_To_Serach_Item_Using_Search_Bar"/>
+		</classes>
+	</test>
+	
+	<test name="Test2" preserve-order="true">
+		<parameter name="browser" value="Chromeheadless" />
+		<parameter name="enviorment" value="prod" />
+		<classes>
+			<class
+				name="UiTest.UiTestRespond.Tc_02_Verify_User_Able_To_Filter_Search_Result_Under_Women_Category_By_Color"/>
+		</classes>
+	</test>
+	
+	<test name="Test3" preserve-order="true">
+		<parameter name="browser" value="Chromeheadless" />
+		<parameter name="enviorment" value="prod" />
+		<classes>
+			<class
+				name="UiTest.UiTestRespond.Tc_03_Verify_If_User_Able_To_View_Any_Clothing_Item_And_Add_That_To_Cart"/>
+		</classes>
+	</test>
+</suite> 
